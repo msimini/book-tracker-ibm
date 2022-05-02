@@ -1,0 +1,29 @@
+{
+  "name": "book-tracker",
+  "version": "1.0.0",
+  "description": "track your fav books here",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "format:check": "prettier --check .",
+    "format:write": "prettier --write .",
+    "lint:check": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "author": "Michael Simini",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "eslint-config-prettier": "^8.5.0",
+    "express": "^4.18.0",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "prettier": "^2.6.2",
+    "sqlite": "^4.1.1",
+    "sqlite3": "^5.0.6"
+  },
+  "devDependencies": {
+    "eslint": "^8.14.0"
+  }
+}
